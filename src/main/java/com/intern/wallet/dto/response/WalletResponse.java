@@ -14,6 +14,7 @@ public class WalletResponse {
     private UUID walletId;
     private UUID userId;
     private WalletType type;
+    private String mobile;
     private WalletStatus status;
     private BigDecimal balance;
     private BigDecimal pendingBalance;

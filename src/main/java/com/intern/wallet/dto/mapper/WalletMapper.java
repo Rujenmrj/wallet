@@ -15,6 +15,7 @@ public class WalletMapper {
 
         response.setWalletId(wallet.getId());   // assuming AbstractEntity has id
         response.setUserId(wallet.getUserId());
+        response.setMobile(wallet.getMobile());
         response.setType(wallet.getType());
         response.setStatus(wallet.getStatus());
         response.setPendingBalance(wallet.getPendingBalance());
